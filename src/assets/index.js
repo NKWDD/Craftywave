@@ -48,7 +48,7 @@ import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
 import roadmap1 from "./roadmap/siq.png";
 import roadmap2 from "./roadmap/brouw.png";
-import roadmap3 from "./roadmap/animalsclinic.png";
+import roadmap3 from "./roadmap/nartbouw.png";
 import roadmap4 from "./roadmap/architectapp.png";
 import undone from "./roadmap/undone.svg";
 
