@@ -38,7 +38,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Let’s bring your ideas to life. Contact us today!
           </p>
-          <Button href="#pricing" white>
+          <Button href="#contact" white>
             Get started
           </Button>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   benefitIcon1,
   benefitIcon2,
@@ -44,8 +45,13 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "About Us",
+    url: "#about",
+  },
+  {
+    id: "1",
+    title: "Projects",
+    url: "#projects",
   },
   {
     id: "2",
@@ -89,6 +95,7 @@ export const roadmap = [
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
+    link: "https://www.siqnl.com",
   },
   {
     id: "2",
@@ -207,7 +214,7 @@ export const pricing = [
     features: [
       "Custom website based on your needs, for lifetime",
       "24/7 support and updates for only €15/month",
-      "Domain name and hosting included!",
+      "Free Domain name included!",
     ],
   },
   {
@@ -263,33 +270,21 @@ export const benefits = [
 
 export const socials = [
   {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
+    id: "2",
+    title: "Facebook",
+    iconUrl: facebook,
     url: "#",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
     title: "Instagram",
     iconUrl: instagram,
     url: "#",
   },
   {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
+    id: "0",
+    title: "Discord",
+    iconUrl: discordBlack,
     url: "#",
   },
 ];

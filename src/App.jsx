@@ -6,7 +6,9 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
-import Services from "./components/Services";
+import Contact from "./components/Contact";
+import CookieConsent from "./components/CookieConsent";
+import LanguagePrompt from "./components/LanguagePrompt";
 
 const App = () => {
   return (
@@ -18,10 +20,13 @@ const App = () => {
         <Collaboration />
         <Roadmap />
         <Pricing />
+        <Contact />
         <Footer />
       </div>
 
       <ButtonGradient />
+      <CookieConsent />
+      <LanguagePrompt />
     </>
   );
 };

@@ -7,7 +7,7 @@ import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section className="overflow-hidden" id="projects">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="What we’re worked on" />
 
@@ -59,6 +59,17 @@ const Roadmap = () => (
                   </div>
                   <h4 className="h4 mb-4">{item.title}</h4>
                   <p className="body-2 text-n-4">{item.text}</p>
+                  {item.link && (
+                  <Button
+                    className="mt-5"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.open(item.link, "_blank");
+                    }}
+                  >
+                    Visit
+                  </Button>
+                )}
                 </div>
               </div>
             </div>
