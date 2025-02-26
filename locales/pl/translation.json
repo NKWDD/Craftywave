@@ -7,13 +7,13 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Twoja wizja, nasza wiedza – zbudujmy coś",
-    "amazing": "niesamowitego",
-    "subtitle": "Ożywmy Twoje pomysły. Skontaktuj się z nami już dziś!",
+    "title": "Twoja wizja, nasza wiedza – razem stworzymy twoją",
+    "amazing": "stronę!",
+    "subtitle": "Zamieńmy Twoje pomysły w nowoczesne strony. Skontaktuj się z nami!",
     "button": "Rozpocznij"
   },
   "benefits": {
-    "heading": "Rozwiązania Internetowe Dostosowane do Twoich Potrzeb",
+    "heading": "Co nas wyróżnia?",
     "items": {
       "0": {
         "title": "Niestandardowe Tworzenie Stron Internetowych",
@@ -31,7 +31,7 @@
   },
   "collaboration": {
     "heading": "Kim jesteśmy?",
-    "hiringButton": "Zatrudniamy",
+    "hiringButton": "Zatrudniamy do pracy",
     "content": {
       "0": {
         "title": "Studenci",
@@ -82,30 +82,30 @@
     "pricing": {
       "basic": {
         "title": "Podstawowy",
-        "description": "Niestandardowe strony internetowe z dożywotnimi aktualizacjami i wsparciem!",
+        "description": "Niestandardowa strona internetowa z domeną na rok w zestawie",
         "text": "Od:",
         "price": "180",
         "features": [
-          "Niestandardowa strona internetowa dostosowana do Twoich potrzeb, na całe życie",
+          "Niestandardowa strona internetowa dostosowana do Twoich potrzeb",
           "24/7 wsparcie i aktualizacje za jedyne 15€/miesiąc",
-          "Darmowa nazwa domeny w zestawie!"
+          "Domena na rok w zestawie!"
         ]
       },
       "premium": {
         "title": "Premium",
-        "description": "Idealny dla startupów. Spersonalizowane logo i firmowy email",
+        "description": "Idealny dla startupów. Spersonalizowany design oraz firmowy email",
         "text": "Od:",
         "price": "230",
         "features": [
           "Wszystko z planu Basic",
-          "Spersonalizowane logo i firmowy email",
+          "Spersonalizowane logo, design oraz firmowy email",
           "Priorytetowe wsparcie w rozwiązywaniu problemów"
         ]
       },
       "enterprise": {
         "title": "Enterprise",
         "description": "Potrzebujesz aplikacji na smartfony lub unikalnego rozwiązania?",
-        "text": "Mamy to dla Ciebie! Zrealizujmy Twoje pomysły",
+        "text": "Nie ma problemu! Zrealizujmy Twoje pomysły",
         "price": null,
         "features": []
       },
@@ -138,7 +138,11 @@
         "submit": "Wyślij",
         "submitting": "Wysyłanie...",
         "successMessage": "Dziękujemy! Twoja wiadomość została wysłana. Skontaktujemy się z Tobą wkrótce.",
-        "errorMessage": "Coś poszło nie tak. Spróbuj ponownie później."
+        "errorMessage": "Coś poszło nie tak. Spróbuj ponownie później.",
+        "priceLabel": "Jestem zainteresowany w:",
+        "basic": "Podstawowy",
+        "premium": "Premium",
+        "enterprise": "Enterprise"
       },
       "cookieConsent": {
         "message": "Używamy plików cookie, aby poprawić Twoje doświadczenia. Kontynuując odwiedzanie tej strony, zgadzasz się na ich użycie.",
