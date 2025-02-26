@@ -1,0 +1,149 @@
+{
+  "navigation": {
+    "features": "Functies",
+    "about us": "Over ons",
+    "projects": "Projecten",
+    "pricing": "Prijzen",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Jouw visie, onze expertise – laten we iets",
+    "amazing": "geweldigs",
+    "subtitle": "Laten we je ideeën tot leven brengen. Neem vandaag nog contact met ons op!",
+    "button": "Aan de slag"
+  },
+  "benefits": {
+    "heading": "Weboplossingen die voor u werken",
+    "items": {
+      "0": {
+        "title": "Aangepaste Website Ontwikkeling",
+        "text": "We maken prachtige websites op maat van uw merk en zakelijke behoeften"
+      },
+      "1": {
+        "title": "SEO & Zichtbaarheidsverbetering",
+        "text": "Ontworpen om hoger te scoren in zoekmachines en meer bezoekers aan te trekken."
+      },
+      "5": {
+        "title": "Dagelijks verbeteren",
+        "text": "Voor slechts €15 per maand houden we uw website up-to-date met de nieuwste trends en beveiligingsupdates."
+      }
+    }
+  },
+  "collaboration": {
+    "heading": "Wie zijn wij?",
+    "hiringButton": "We zijn aan het werven",
+    "content": {
+      "0": {
+        "title": "Studenten",
+        "text": "Bij Craftywave zijn we een team van gepassioneerde student-webontwerpers en -ontwikkelaars die zich inzetten om uw ideeën tot leven te brengen."
+      },
+      "1": {
+        "title": "Kennis",
+        "text": "Als studenten combineren we de nieuwste technologische kennis met een frisse kijk om prachtige, hoogwaardige websites te creëren die op uw behoeften zijn afgestemd."
+      },
+      "2": {
+        "title": "Uw Bedrijf",
+        "text": "Of u nu een klein bedrijf, startup of gevestigd merk bent, wij zijn er om u online te laten opvallen en uw bedrijf te laten groeien, allemaal tegen een prijs die voor u werkt."
+      }
+    },
+    "description": "De standaardtekst die in de collabText variabele moet staan"
+  },
+  "roadmap": {
+    "tag": "Klaar om te beginnen",
+    "title": "Waar we aan gewerkt hebben",
+    "status": {
+      "done": "Voltooid",
+      "progress": "In uitvoering"
+    },
+    "visitButton": "Bezoeken",
+    "projects": {
+      "0": {
+        "title": "Siqnl",
+        "text": "We hebben onlangs een geweldige webshop voor Siqnl gebouwd, compleet met een volledig beheerderspaneel en een gebruiksvriendelijk ontwerp dat het winkelen voor hun klanten heel gemakkelijk maakt.",
+        "date": "Sep 2024"
+      },
+      "1": {
+        "title": "Brouwwereld",
+        "text": "We zijn momenteel bezig met het bouwen van een volledige website voor Brouwwereld, met een informatieve klantsectie en een geïntegreerde webshop. De site bevat een krachtig beheerderspaneel met exclusieve instellingen, waardoor ze volledige controle hebben over hun online aanwezigheid.",
+        "date": "Feb 2025"
+      },
+      "2": {
+        "title": "Nartbouw",
+        "text": "We hadden de gelegenheid om een strakke en functionele website te bouwen voor Nartbouw, een ZZP-bedrijf, met een gebruiksvriendelijke interface ontworpen om de klantervaring te verbeteren.",
+        "date": "Mei 2024"
+      },
+      "3": {
+        "title": "Een mobiele app voor architectuurstudenten",
+        "text": "Project in uitvoering! We bouwen momenteel een mobiele applicatie die is ontworpen om architectuurstudenten te helpen bij het vinden van freelance werkmogelijkheden. Blijf op de hoogte voor deze innovatieve oplossing!",
+        "date": "Jan 2025"
+      }
+    }
+  },
+    "pricing": {
+      "basic": {
+        "title": "Basis",
+        "description": "Op maat gemaakte websites met levenslange updates en ondersteuning!",
+        "text": "Vanaf:",
+        "price": "180",
+        "features": [
+          "Op maat gemaakte website op basis van uw behoeften, voor het leven",
+          "24/7 ondersteuning en updates voor slechts €15/maand",
+          "Gratis domeinnaam inbegrepen!"
+        ]
+      },
+      "premium": {
+        "title": "Premium",
+        "description": "Perfect voor Startups. Gepersonaliseerd logo en zakelijke e-mail",
+        "text": "Vanaf:",
+        "price": "230",
+        "features": [
+          "Alles in het Basisplan",
+          "Gepersonaliseerd logo en zakelijke e-mail",
+          "Prioritaire ondersteuning om problemen snel op te lossen"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "description": "Heeft u een smartphone-app of een unieke oplossing nodig?",
+        "text": "Wij hebben het voor u! Laten we uw ideeën tot leven brengen",
+        "price": null,
+        "features": []
+      },
+    "getStarted": "Aan de slag",
+    "contactUs": "Neem contact op",
+    "tag": "Begin met Craftywave",
+    "title": "Betaal eenmalig, gebruik voor altijd",
+    "seeMore": "Bekijk meer details"
+    },
+      "contact": {
+        "getStarted": "AAN DE SLAG",
+        "getInTouch": "Neem contact op",
+        "whatsapp": "WhatsApp: +31 658926449",
+        "email": "Email: info.craftywave@gmail.com",
+        "availability": "Beschikbaar: Ma - Vr, 09:00 - 18:00",
+        "trustpilot": "Gecertificeerd door Trustpilot",
+        "hostinger": "Gesponsord door Hostinger",
+        "nameLabel": "Naam",
+        "namePlaceholder": "Uw naam",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Uw email",
+        "foundUsLabel": "Hoe heeft u ons gevonden?",
+        "selectOption": "Selecteer een optie",
+        "searchEngine": "Via een zoekmachine",
+        "socialMedia": "Social media",
+        "friend": "Via een vriend",
+        "other": "Anders",
+        "questionLabel": "Uw vraag",
+        "questionPlaceholder": "Typ hier uw vraag",
+        "submit": "Verzenden",
+        "submitting": "Bezig met verzenden...",
+        "successMessage": "Bedankt! Uw bericht is verzonden. We nemen snel contact met u op.",
+        "errorMessage": "Er is iets misgegaan. Probeer het later opnieuw."
+      },
+      "cookieConsent": {
+        "message": "We gebruiken cookies om uw ervaring te verbeteren. Door deze site te blijven bezoeken, gaat u akkoord met ons gebruik van cookies.",
+        "learnMore": "Meer informatie",
+        "decline": "Weigeren",
+        "accept": "Accepteren"
+      }
+}

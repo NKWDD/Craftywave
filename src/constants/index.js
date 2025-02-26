@@ -206,37 +206,36 @@ export const collabApps = [
 
 export const pricing = [
   {
-    id: "0",
-    title: "Basic",
-    description: "Custom websites with lifetime updates and support!",
-    text: "From:",
+    id: "basic",
+    title: "basic.title",
+    description: "basic.description",
+    text: "basic.text",
     price: "180",
     features: [
-      "Custom website based on your needs, for lifetime",
-      "24/7 support and updates for only €15/month",
-      "Free Domain name included!",
+      "basic.features.0",
+      "basic.features.1",
+      "basic.features.2"
     ],
   },
   {
-    id: "1",
-    title: "Premium",
-    description: "Perfect for Startups. Personalized logo and business Email",
-    text: "From:",
+    id: "premium",
+    title: "premium.title",
+    description: "premium.description",
+    text: "premium.text",
     price: "230",
     features: [
-      "Everything in the Basic plan",
-      "Personalized logo and business email",
-      "Priority support to solve issues quickly",
+      "premium.features.0",
+      "premium.features.1",
+      "premium.features.2"
     ],
   },
   {
-    id: "2",
-    title: "Enterprise",
-    description: "Need a smartphone app, or a unique solution?",
-    text: "We’ve got you covered! Let’s bring your ideas to life",
+    id: "enterprise",
+    title: "enterprise.title",
+    description: "enterprise.description",
+    text: "enterprise.text",
     price: null,
-    features: [
-    ],
+    features: [],
   },
 ];
 
@@ -273,13 +272,13 @@ export const socials = [
     id: "2",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=61573555864439",
   },
   {
     id: "1",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/craftywav/",
   },
   {
     id: "0",

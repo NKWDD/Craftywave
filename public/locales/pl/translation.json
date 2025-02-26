@@ -1,0 +1,149 @@
+{
+  "navigation": {
+    "features": "Funkcje",
+    "about us": "O nas",
+    "projects": "Projekty",
+    "pricing": "Cennik",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Twoja wizja, nasza wiedza – zbudujmy coś",
+    "amazing": "niesamowitego",
+    "subtitle": "Ożywmy Twoje pomysły. Skontaktuj się z nami już dziś!",
+    "button": "Rozpocznij"
+  },
+  "benefits": {
+    "heading": "Rozwiązania Internetowe Dostosowane do Twoich Potrzeb",
+    "items": {
+      "0": {
+        "title": "Niestandardowe Tworzenie Stron Internetowych",
+        "text": "Tworzymy oszałamiające strony internetowe dostosowane do Twojej marki i potrzeb biznesowych"
+      },
+      "1": {
+        "title": "Zwiększenie SEO i Widoczności",
+        "text": "Zaprojektowane, aby zajmować wyższe pozycje w wyszukiwarkach i przyciągać więcej odwiedzających."
+      },
+      "5": {
+        "title": "Ulepszaj codziennie",
+        "text": "Za jedyne 15€ miesięcznie, będziemy utrzymywać Twoją stronę aktualną z najnowszymi trendami i poprawkami bezpieczeństwa."
+      }
+    }
+  },
+  "collaboration": {
+    "heading": "Kim jesteśmy?",
+    "hiringButton": "Zatrudniamy",
+    "content": {
+      "0": {
+        "title": "Studenci",
+        "text": "W Craftywave jesteśmy zespołem pełnych pasji studentów projektantów i programistów stron internetowych, dedykowanych do urzeczywistniania Twoich pomysłów."
+      },
+      "1": {
+        "title": "Wiedza",
+        "text": "Jako studenci, łączymy najnowszą wiedzę technologiczną ze świeżym spojrzeniem, aby tworzyć oszałamiające, wydajne strony internetowe dostosowane do Twoich potrzeb."
+      },
+      "2": {
+        "title": "Twój Biznes",
+        "text": "Niezależnie od tego, czy jesteś małą firmą, startupem, czy ugruntowaną marką, jesteśmy tutaj, aby pomóc Ci wyróżnić się w internecie i rozwijać Twój biznes, wszystko w cenie, która Ci odpowiada."
+      }
+    },
+    "description": "Standardowy tekst, który powinien znajdować się w zmiennej collabText"
+  },
+  "roadmap": {
+    "tag": "Gotowi do rozpoczęcia",
+    "title": "Nad czym pracowaliśmy",
+    "status": {
+      "done": "Ukończone",
+      "progress": "W trakcie"
+    },
+    "visitButton": "Odwiedź",
+    "projects": {
+      "0": {
+        "title": "Siqnl",
+        "text": "Niedawno zbudowaliśmy niesamowity sklep internetowy dla Siqnl, wyposażony w pełny panel administracyjny i przyjazny dla użytkownika design, który sprawia, że zakupy dla ich klientów są proste i przyjemne.",
+        "date": "Wrz 2024"
+      },
+      "1": {
+        "title": "Brouwwereld",
+        "text": "Obecnie tworzymy pełną stronę internetową dla Brouwwereld, zawierającą informacyjną sekcję dla klientów i zintegrowany sklep internetowy. Strona zawiera potężny panel administracyjny z ekskluzywnymi ustawieniami, dając im pełną kontrolę nad ich obecnością w sieci.",
+        "date": "Lut 2025"
+      },
+      "2": {
+        "title": "Nartbouw",
+        "text": "Mieliśmy okazję zbudować elegancką i funkcjonalną stronę internetową dla Nartbouw, firmy ZZP, z łatwym w obsłudze interfejsem zaprojektowanym, aby poprawić doświadczenia klientów.",
+        "date": "Maj 2024"
+      },
+      "3": {
+        "title": "Aplikacja mobilna dla studentów architektury",
+        "text": "Projekt w trakcie realizacji! Obecnie budujemy aplikację mobilną zaprojektowaną, aby pomóc studentom architektury znaleźć możliwości pracy freelancerskiej. Śledźcie nasze postępy!",
+        "date": "Sty 2025"
+      }
+    }
+  },
+    "pricing": {
+      "basic": {
+        "title": "Podstawowy",
+        "description": "Niestandardowe strony internetowe z dożywotnimi aktualizacjami i wsparciem!",
+        "text": "Od:",
+        "price": "180",
+        "features": [
+          "Niestandardowa strona internetowa dostosowana do Twoich potrzeb, na całe życie",
+          "24/7 wsparcie i aktualizacje za jedyne 15€/miesiąc",
+          "Darmowa nazwa domeny w zestawie!"
+        ]
+      },
+      "premium": {
+        "title": "Premium",
+        "description": "Idealny dla startupów. Spersonalizowane logo i firmowy email",
+        "text": "Od:",
+        "price": "230",
+        "features": [
+          "Wszystko z planu Basic",
+          "Spersonalizowane logo i firmowy email",
+          "Priorytetowe wsparcie w rozwiązywaniu problemów"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "description": "Potrzebujesz aplikacji na smartfony lub unikalnego rozwiązania?",
+        "text": "Mamy to dla Ciebie! Zrealizujmy Twoje pomysły",
+        "price": null,
+        "features": []
+      },
+    "getStarted": "Rozpocznij",
+    "contactUs": "Skontaktuj się z nami",
+    "tag": "Rozpocznij z Craftywave",
+    "title": "Zapłać raz, używaj na zawsze",
+    "seeMore": "Zobacz więcej szczegółów"
+    },
+      "contact": {
+        "getStarted": "ROZPOCZNIJ",
+        "getInTouch": "Skontaktuj się",
+        "whatsapp": "WhatsApp: +31 658926449",
+        "email": "Email: info.craftywave@gmail.com",
+        "availability": "Dostępne: Pon - Pt, 09:00 - 18:00",
+        "trustpilot": "Certyfikat Trustpilot",
+        "hostinger": "Sponsorowane przez Hostinger",
+        "nameLabel": "Imię",
+        "namePlaceholder": "Twoje imię",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Twój email",
+        "foundUsLabel": "Jak nas znalazłeś?",
+        "selectOption": "Wybierz opcję",
+        "searchEngine": "Przez wyszukiwarkę",
+        "socialMedia": "Media społecznościowe",
+        "friend": "Od znajomego",
+        "other": "Inne",
+        "questionLabel": "Twoje pytanie",
+        "questionPlaceholder": "Wpisz swoje pytanie tutaj",
+        "submit": "Wyślij",
+        "submitting": "Wysyłanie...",
+        "successMessage": "Dziękujemy! Twoja wiadomość została wysłana. Skontaktujemy się z Tobą wkrótce.",
+        "errorMessage": "Coś poszło nie tak. Spróbuj ponownie później."
+      },
+      "cookieConsent": {
+        "message": "Używamy plików cookie, aby poprawić Twoje doświadczenia. Kontynuując odwiedzanie tej strony, zgadzasz się na ich użycie.",
+        "learnMore": "Dowiedz się więcej",
+        "decline": "Odrzuć",
+        "accept": "Akceptuj"
+      }
+}

@@ -1,6 +1,7 @@
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import { useState } from "react";
+import { useState, useEffect } from "react"; // Add useEffect
 
 import { brainwave } from "../assets";
 import { navigation } from "../constants";
@@ -9,10 +10,20 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // State for dropdown open/close
-  const [selectedLanguage, setSelectedLanguage] = useState("English"); // Default language
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language || "en");
+
+  // Sync selectedLanguage with localStorage on component mount
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem("selectedLanguage");
+    if (savedLanguage) {
+      setSelectedLanguage(savedLanguage);
+      i18n.changeLanguage(savedLanguage);
+    }
+  }, [i18n]);
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -32,9 +43,10 @@ const Header = () => {
   };
 
   const handleLanguageChange = (language) => {
-    setSelectedLanguage(language); // Update the selected language
-    setIsDropdownOpen(false); // Close the dropdown
-    // Add logic here to change the language of the website (e.g., using i18next)
+    setSelectedLanguage(language);
+    i18n.changeLanguage(language);
+    localStorage.setItem("selectedLanguage", language); // Save the selected language to localStorage
+    setIsDropdownOpen(false);
   };
 
   const LanguageDropdown = () => {
@@ -44,11 +56,9 @@ const Header = () => {
           className="flex items-center cursor-pointer"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
         >
-          {/* Display the selected language */}
           <span className="button hidden mr-4 text-n-1/50 transition-colors hover:text-n-1 lg:block bg-transparent border-none appearance-none cursor-pointer">
             {selectedLanguage}
           </span>
-          {/* Dropdown arrow with animation */}
           <div className="transform transition-transform duration-200">
             <svg
               className={`w-4 h-4 text-n-1/50 ${
@@ -69,25 +79,24 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Dropdown menu styling */}
         {isDropdownOpen && (
           <div className="absolute top-full left-0 mt-2 w-40 bg-n-8 rounded-lg shadow-lg z-50">
             <div className="py-2">
               <div
                 className="block px-4 py-2 text-n-1 hover:bg-n-7 transition-colors cursor-pointer"
-                onClick={() => handleLanguageChange("English")}
+                onClick={() => handleLanguageChange("en")}
               >
                 English
               </div>
               <div
                 className="block px-4 py-2 text-n-1 hover:bg-n-7 transition-colors cursor-pointer"
-                onClick={() => handleLanguageChange("Dutch")}
+                onClick={() => handleLanguageChange("nl")}
               >
                 Dutch
               </div>
               <div
                 className="block px-4 py-2 text-n-1 hover:bg-n-7 transition-colors cursor-pointer"
-                onClick={() => handleLanguageChange("Polish")}
+                onClick={() => handleLanguageChange("pl")}
               >
                 Polish
               </div>
@@ -128,7 +137,7 @@ const Header = () => {
                     : "lg:text-n-1/50"
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
-                {item.title}
+              {t(`navigation.${item.title.toLowerCase()}`)}
               </a>
             ))}
           </div>
@@ -136,13 +145,12 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        {/* Language Dropdown (Hidden on Mobile) */}
         <div className="hidden lg:block">
           <LanguageDropdown />
         </div>
 
         <Button className="hidden lg:flex ml-4" href="#contact">
-          Contact
+          {t('navigation.contact')}
         </Button>
 
         <Button

@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next'; // Import useTranslation
 
 const LanguagePrompt = () => {
+  const { i18n } = useTranslation(); // Use the i18n instance
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -12,9 +14,24 @@ const LanguagePrompt = () => {
   }, []);
 
   const handleLanguageSelect = (language) => {
-    localStorage.setItem("selectedLanguage", language); // Save the selected language
+    let languageCode;
+    switch (language) {
+      case "English":
+        languageCode = "en";
+        break;
+      case "Polski":
+        languageCode = "pl";
+        break;
+      case "Nederlands":
+        languageCode = "nl";
+        break;
+      default:
+        languageCode = "en";
+    }
+
+    localStorage.setItem("selectedLanguage", languageCode); // Save the selected language code
+    i18n.changeLanguage(languageCode); // Change the language using i18n
     setIsVisible(false); // Hide the prompt
-    // Add logic here to change the language of the website (e.g., using i18next)
   };
 
   if (!isVisible) return null; // Don't render the prompt if the user has already selected a language
