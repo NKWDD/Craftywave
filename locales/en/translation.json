@@ -1,0 +1,149 @@
+{
+  "navigation": {
+    "features": "Features",
+    "about us": "About",
+    "projects": "Projects",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your vision, our expertise – let's build something",
+    "amazing": "amazing",
+    "subtitle": "Let's bring your ideas to life. Contact us today!",
+    "button": "Get started"
+  },
+  "benefits": {
+    "heading": "Web Solutions That Work for You",
+    "items": {
+      "0": {
+        "title": "Custom Website Development",
+        "text": "We craft stunning websites tailored to your brand and business needs"
+      },
+      "1": {
+        "title": "SEO & Visibility Boost",
+        "text": "Designed to rank higher on search engines and attract more visitors."
+      },
+      "5": {
+        "title": "Improve everyday",
+        "text": "With just €15 per month, we'll keep your website updated with the latest trends and security fixes."
+      }
+    }
+  },
+  "collaboration": {
+    "heading": "Who are we?",
+    "hiringButton": "We are hiring",
+    "content": {
+      "0": {
+        "title": "Students",
+        "text": "At Craftywave, we're a team of passionate student web designers and developers dedicated to bringing your ideas to life."
+      },
+      "1": {
+        "title": "Knowledge",
+        "text": "As students, we combine the latest tech knowledge with a fresh perspective to create stunning, high-performance websites tailored to your needs."
+      },
+      "2": {
+        "title": "Your Business",
+        "text": "Whether you're a small business, startup, or established brand, we're here to help you stand out online and grow your business all at a price that works for you."
+      }
+    },
+    "description": "The standard text that should be in collabText variable"
+  },
+  "roadmap": {
+    "tag": "Ready to get started",
+    "title": "What we're worked on",
+    "status": {
+      "done": "Done",
+      "progress": "In progress"
+    },
+    "visitButton": "Visit",
+    "projects": {
+      "0": {
+        "title": "Siqnl",
+        "text": "We recently built an amazing webshop for Siqnl, complete with a full admin panel and a user-friendly design that makes shopping a breeze for their customers.",
+        "date": "Sep 2024"
+      },
+      "1": {
+        "title": "Brouwwereld",
+        "text": "We're currently crafting a full-page website for Brouwwereld, featuring an informative customer section and an integrated webshop. The site includes a powerful admin panel with exclusive settings, giving them full control over their online presence.",
+        "date": "Feb 2025"
+      },
+      "2": {
+        "title": "Nartbouw",
+        "text": "We had the opportunity to build a sleek and functional website for Nartbouw, a ZZP company, featuring an easy-to-use interface designed to enhance the customer experience.",
+        "date": "May 2024"
+      },
+      "3": {
+        "title": "A Mobile App for Architecture Students",
+        "text": "Project in progress! We're currently building a mobile application designed to help architecture students find freelance work opportunities. Stay tuned for this innovative solution!",
+        "date": "Jan 2025"
+      }
+    }
+  },
+  "pricing": {
+    "basic": {
+      "title": "Basic",
+      "description": "Custom websites with lifetime updates and support!",
+      "text": "From:",
+      "price": "180",
+      "features": [
+        "Custom website based on your needs, for lifetime",
+        "24/7 support and updates for only €15/month",
+        "Free Domain name included!"
+      ]
+    },
+    "premium": {
+      "title": "Premium",
+      "description": "Perfect for Startups. Personalized logo and business Email",
+      "text": "From:",
+      "price": "230",
+      "features": [
+        "Everything in the Basic plan",
+        "Personalized logo and business email",
+        "Priority support to solve issues quickly"
+      ]
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Need a smartphone app, or a unique solution?",
+      "text": "We’ve got you covered! Let’s bring your ideas to life",
+      "price": null,
+      "features": []
+    },
+    "getStarted": "Get started",
+    "contactUs": "Contact us",
+    "tag": "Get started with Craftywave",
+    "title": "Pay once, use forever",
+    "seeMore": "See more details"
+  },
+    "contact": {
+      "getStarted": "GET STARTED",
+      "getInTouch": "Get in Touch",
+      "whatsapp": "WhatsApp: +31 658926449",
+      "email": "Email: info.craftywave@gmail.com",
+      "availability": "Available: Mon - Fri, 09:00 - 18:00",
+      "trustpilot": "Certified by Trustpilot",
+      "hostinger": "Sponsored by Hostinger",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Your Email",
+      "foundUsLabel": "How did you find us?",
+      "selectOption": "Select an option",
+      "searchEngine": "Just by the search",
+      "socialMedia": "Social Media",
+      "friend": "Friend",
+      "other": "Other",
+      "questionLabel": "Your Question",
+      "questionPlaceholder": "Type your question here",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "successMessage": "Thank you! Your message has been sent. We will contact you soon.",
+      "errorMessage": "Something went wrong. Please try again later."
+    },
+    "cookieConsent": {
+      "message": "We use cookies to enhance your experience. By continuing to visit this site, you agree to our use of cookies.",
+      "learnMore": "Learn more",
+      "decline": "Decline",
+      "accept": "Accept"
+    }
+}
