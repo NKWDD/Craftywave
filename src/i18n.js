@@ -8,17 +8,17 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
-    debug: true,
+    fallbackLng: 'en', // Default language
+    debug: true, // Enable debug logs
     interpolation: {
-      escapeValue: false,
+      escapeValue: false, // React already escapes values
     },
     backend: {
-      loadPath: 'public/locales/{{lng}}/translation.json', // Note: simplified path
+      loadPath: '/locales/{{lng}}/translation.json', // Path to translation files
     },
     react: {
-      useSuspense: false, // Set to false if you're not using Suspense
-    }
+      useSuspense: false, // Disable Suspense if not needed
+    },
   });
 
 export default i18n;
