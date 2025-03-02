@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "features": "Features",
+    "features": "Our Strengths",
     "about us": "About",
     "projects": "Projects",
     "pricing": "Pricing",
@@ -13,7 +13,7 @@
     "button": "Get started"
   },
   "benefits": {
-    "heading": "Web Solutions That Work for You",
+    "heading": "What sets us apart from the rest",
     "items": {
       "0": {
         "title": "Custom Website Development",
@@ -86,14 +86,14 @@
       "text": "From:",
       "price": "180",
       "features": [
-        "Custom website based on your needs, for lifetime",
+        "Custom website based on your needs",
         "24/7 support and updates for only €15/month",
-        "Free Domain name included!"
+        "Free Domain for one year included!"
       ]
     },
     "premium": {
       "title": "Premium",
-      "description": "Perfect for Startups. Personalized logo and business Email",
+      "description": "Perfect for Startups. Personalized logo, design and business Email",
       "text": "From:",
       "price": "230",
       "features": [
