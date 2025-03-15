@@ -68,8 +68,8 @@
         "date": "Lut 2025"
       },
       "2": {
-        "title": "Nartbouw",
-        "text": "Mieliśmy okazję zbudować elegancką i funkcjonalną stronę internetową dla Nartbouw, firmy ZZP, z łatwym w obsłudze interfejsem zaprojektowanym, aby poprawić doświadczenia klientów.",
+        "title": "FormifyX",
+        "text": "Mieliśmy okazję stworzyć stronę internetową z panelem logowania oraz automatycznym systemem wysyłania newsletterów dla FormifyX. Z przyjemnością mogliśmy wam pomóc! FormifyX rozwija oprogramowanie ułatwiające tworzenie faktur i gorąco polecamy ich usługi.",
         "date": "Maj 2024"
       },
       "3": {
@@ -142,7 +142,9 @@
         "priceLabel": "Jestem zainteresowany w:",
         "basic": "Podstawowy",
         "premium": "Premium",
-        "enterprise": "Enterprise"
+        "enterprise": "Enterprise",
+        "work": "Praca"
+
       },
       "cookieConsent": {
         "message": "Używamy plików cookie, aby poprawić Twoje doświadczenia. Kontynuując odwiedzanie tej strony, zgadzasz się na ich użycie.",

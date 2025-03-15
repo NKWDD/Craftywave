@@ -68,8 +68,8 @@
         "date": "Feb 2025"
       },
       "2": {
-        "title": "Nartbouw",
-        "text": "We had the opportunity to build a sleek and functional website for Nartbouw, a ZZP company, featuring an easy-to-use interface designed to enhance the customer experience.",
+        "title": "FormifyX",
+        "text": "We had the opportunity to create a website with a login page and an automated newsletter sender for FormifyX. It was a pleasure to assist you! FormifyX is developing software to simplify invoice creation, and we highly recommend their services.",
         "date": "May 2024"
       },
       "3": {
@@ -134,6 +134,7 @@
       "basic": "Basic",
       "premium": "Premium",
       "enterprise": "Enterprise",
+      "work": "Work",
       "socialMedia": "Social Media",
       "friend": "Friend",
       "other": "Other",

@@ -69,8 +69,8 @@
         "date": "Feb 2025"
       },
       "2": {
-        "title": "Nartbouw",
-        "text": "We hebben de kans gehad om een strakke en functionele website te bouwen voor Nartbouw, een ZZP-bedrijf, met een gebruiksvriendelijke interface die de klantervaring verbetert.",
+        "title": "FormifyX",
+        "text": "We hadden de kans om een website te maken met een loginpagina en een geautomatiseerde nieuwsbriefverzender voor FormifyX. Het was een genoegen om jullie te helpen! FormifyX ontwikkelt software om het maken van facturen eenvoudiger te maken, en we raden hun diensten ten zeerste aan.",
         "date": "Mei 2024"
       },
       "3": {
@@ -135,6 +135,7 @@
     "basic": "Basis",
     "premium": "Premium",
     "enterprise": "Enterprise",
+    "work": "Werk",	
     "socialMedia": "Social Media",
     "friend": "Vriend",
     "other": "Anders",
